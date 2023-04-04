@@ -1,0 +1,142 @@
+* {
+  font-family: "Overpass", sans-serif;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 20rem;
+  width: 18rem;
+  border-radius: 3rem;
+  background-color: hsl(216, 12%, 8%);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon_star {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.7rem;
+}
+
+.text_box {
+  color: hsl(217, 12%, 63%);
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.text_box .header {
+  font-size: 22px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.text_box p {
+  margin: 0;
+}
+
+.rating_btn {
+  border-radius: 50%;
+  width: 2.7rem;
+  height: 2.7rem;
+  margin-left: 0.6rem;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+  border-width: 0px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.rating_btn:hover {
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.rating_btn.active {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.sub_rating_btn {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 2rem;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-width: 0px;
+}
+
+.sub_rating_btn:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+/*thank_you_page*/
+
+.thank_you_container {
+  height: 20rem;
+  width: 18rem;
+  border-radius: 3rem;
+  background-color: hsl(216, 12%, 8%);
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_box {
+  height: auto;
+  width: auto;
+}
+
+.selected_rating {
+  height: 2rem;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 2rem;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.text_thank_you {
+  margin-top: 1rem;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 12.5px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.text_thank_you p {
+  margin-top: 0rem;
+  color: hsl(217, 12%, 63%);
+}
